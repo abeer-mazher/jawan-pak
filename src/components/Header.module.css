@@ -1,0 +1,17 @@
+.menu{
+    padding: 0 2px;
+}
+.menu:hover .menuItems{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+    padding: 5px 10px ;
+} 
+.menuItems p {
+    padding: 10px 10px;
+}
+.menuItems p:hover {
+    background-color: #006838;
+    color: white;
+} 
